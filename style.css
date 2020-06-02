@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Cinzel:wght@700&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+/* PARALLAX */
+.container-fluid1{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.parallex{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/2.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  height:1000px;
+  width:100%;
+  display:block;
+  position: relative;
+  opacity: 100;
+}
+
+.textContainer{
+  background-color:rgb(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  opacity:100;
+  text-overflow: ellipsis;
+  overflow:hidden;
+
+}
+/* PARALLAX */
+
+h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  opacity: 100;
+
+}
+
+.card-header{
+  font-size: 20px;
+
+}
+.card-img-top{
+  object-fit: cover;
+  height:20vh;
+}
+.corousel-inner{
+  height:760px;
+  background-size: cover;
+
+}
+.carousel-item{
+
+height:768px;
+
+background-size: cover;
+}
+
+h2{
+font-family: 'Cinzel', serif;
+color:white;
+background-color: #212529;
+}
+p{
+  font-family: 'Architects Daughter', cursive;
+}
+
+#one{
+
+  background-position: center;
+  background-size: cover;
+  opacity: 100%;
+  background:rgba(0,0,0,.125);
+}
+
+.bar{
+  background-color: white;
+  background-position:center;
+  background-size: contain;
+}
+
+.card{
+  border-radius: 5%;
+  color: white;
+}
+
+
+.centerdiv{
+height:100vh;
+justify-content: center;
+display:flex;
+
+}
+.myFooter{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color:#f5f6fa;
+  margin: 10px;
+  text-align: center;
+  line-height: 110px;
+}
+a i{
+  transition: all 0.3s linear;
+}
+
+a:hover i{
+transform: scale(1.4);
+}
+
+.fa-instagram{
+  color:#e84393;
+}
+
+.fa-youtube{
+  color:#e84118;;
+}
+
+.fa-twitter{
+  color:#0097e6;
+}
+
+.fa-linkedin{
+  color:re#0097e6;
+}
+
+.fa-instagram{
+  color:red;
+}
